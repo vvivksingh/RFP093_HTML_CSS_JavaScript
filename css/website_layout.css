@@ -1,0 +1,63 @@
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(23, 240, 229);
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+    height: 2vh;
+}
+
+.footerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: rgb(214, 133, 57);
+    font-weight: bold;
+    padding: 100px;
+    height: 2vh;
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainContentItem {
+    text-align: left;
+    background: lightskyblue;
+    flex: 5 6px;
+    order: 1;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(233, 240, 240);
+}
+
+.asideItem {
+    padding: 40px;
+    align-content: center;
+    text-align: justify;
+    background: lightyellow;
+    order: 2;
+}
+
+.navigationItem {
+    padding: 30px;
+    text-align: center;
+    background: rgb(212, 59, 82);
+    order: 3;
+    font-size: 25px;
+}
+
+.subColumn {
+    padding: 10px;
+    align-content: left;
+    flex: 1 1 1;
+    border: 2px solid rgb(13, 217, 231);
+}
