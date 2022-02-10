@@ -1,0 +1,62 @@
+<!--Simple Form Layout-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Basic Input Types</title>
+        <link rel="stylesheet" href="/Day 42 Practice Problem/css/simpleForm.css">
+    </head>
+    <body>
+        <form>
+            <header class="headerContainer"><h1>HTML 5 Form Input Fields</HTML:5></h1></header>
+            <div>
+                <label for="text">text input type for Name: </label>
+                <input type="text" id="text" name="text" required>
+                <error-output class="text-error" for="text"></error-output>
+            </div>
+            <div>
+                <label for="pwd">password input type: </label>
+                <input type="password" id="pwd" name="pwd" required>
+                <error-output class="pwd-error" for="pwd"></error-output>
+            </div>
+            <div>
+                <label for="email">email input type: </label>
+                <input type="email" id="email" name="email" required>
+                <error-output class="email-error" for="email"></error-output>
+            </div>
+            <div>
+                <label for="url">url input type: </label>
+                <input type="url" id="url" name="url">
+            </div>
+            <div>
+                <label for="number">number input type: </label>
+                <input type="number" id="number" name="number" required>
+                <error-output class="number-error" for="number"></error-output>
+            </div>
+            <div>
+                <label for="tel">tel input type: </label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+            <div>
+                <label for="search">search input type: </label>
+                <input type="search" id="search" name="search">
+            </div>
+            <div class="nativeDateTimePicker">
+                <label for="party">Choose a Date and Time</label>
+                <input type="datetime-local" id="party" name="bday">
+                <span class="validity"></span>
+            </div>
+            <div>
+                <label for="salary">Choose your salary</label>
+                <input type="range" id="salary" name="salary" min="300000" max="500000" step="100" value="40000">
+                <output class="salary-output" for="salary">400000</output>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+        <script src="/Day 42 Practice Problem/js/simpleForm.js"></script>
+    </body>
+</html>
