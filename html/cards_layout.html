@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cards Gallery</title>
+		<style>
+			.cards {
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				align-items: stretch;
+				/* flex-direction: column; 
+							align-items: flex-end;
+							align-items: flex-start;
+							align-items: center;  */
+			}
+
+			.card {
+				flex: 0 0 200px;
+				margin: 10px;
+				border: 1px solid #ccc;
+				box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+			}
+
+			.card img {
+				max-width: 100%;
+				align-content: center;
+			}
+
+			.card .content {
+				padding: 0 20px 20px;
+			}
+
+			.card .content>button {
+				background: gray;
+				border: 0;
+				color: white;
+				padding: 10px;
+				width: 100%;
+			}
+
+			.card:nth-child(1) {
+				width: 420px;
+			}
+		</style>
+	</head>
+
+	<body class="cards">
+		<article class="card">
+			<img src="../assets/friends.jpeg" alt="Friends">
+			<div class="content">
+				<h3>F.R.I.E.N.D.S</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet lorem libero. Donec commodo
+					molestie
+					varius. </p>
+				<button>Read More</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/dark.jpeg" alt="Dark">
+			<div class="content">
+				<h3>Dark</h3>
+				<p>Donec molestie
+					vitae odio et convallis. Maecenas dapibus lobortis urna sagittis ullamcorper.</p>
+				<button>Read More</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/fullmetalalchemist.jpeg" alt="Full Metal Alchemist">
+			<div class="content">
+				<h3>Full Metal Alchemist</h3>
+				<p>Vestibulum consequat lorem in purus volutpat consequat. Morbi molestie rutrum nibh at ornare.
+					Maecenas mattis congue tortor non viverra.</p>
+				<button>Read more</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/hunterxhunter.jpeg" alt="HunterxHunter">
+			<div class="content">
+				<h3>HunterxHunter</h3>
+				<p>Vestibulum lectus est, volutpat sit amet luctus nec, dictum et ipsum. Nulla facilisi. Vivamus quis
+					consequat lacus, at sollicitudin sapien.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/jujutsukaisen.jpeg" alt="Jujutsu Kaisen">
+			<div class="content">
+				<h3>Jujutsu Kaisen</h3>
+				<p>Aliquam non mollis nisl, sit amet luctus ligula. Nam et lectus
+					non leo ornare faucibus ut in metus. Mauris vulputate dui quis pellentesque porta.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/lie in april.jpeg" alt="Your Lie In April">
+			<div class="content">
+				<h3>Your Lie In April</h3>
+				<p>Aliquam consequat lectus et aliquam volutpat. Morbi sed odio lobortis, tristique massa vel, vehicula
+					felis. Morbi gravida dolor non nunc convallis accumsan. Sed dolor eros, venenatis eu eros ac, tristique
+					ornare dui. Nunc massa nulla, consectetur non sapien in, consectetur placerat tellus.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/bbt.jpeg" alt="Big Bang Theory">
+			<div class="content">
+				<h3>Big Bang Theory</h3>
+				<p> Nulla vulputate dolor et nisi lacinia vestibulum. Quisque nec nunc nec neque auctor eleifend. Donec in
+					sapien id tellus euismod ullamcorper. </p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/brooklyn99.jpeg" alt="Brooklyn 99">
+			<div class="content">
+				<h3>Brooklyn 99</h3>
+				<p>Mauris est sapien, vestibulum vitae feugiat a, mattis et ligula. Duis lacinia dui pharetra felis finibus
+					blandit.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/bts.jpeg" alt="BTS">
+			<div class="content">
+				<h3>Bangtan Sonyeondan</h3>
+				<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent rhoncus
+					bibendum lorem, sed posuere sem laoreet at.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/modernfamily.jpeg" alt="Modern Family">
+			<div class="content">
+				<h3>Modern Family</h3>
+				<p>Sed molestie ex odio, in tristique velit consectetur sed. Etiam ultrices ac metus vel varius.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/myheroacadamia.jpeg" alt="My Hero Acadamia">
+			<div class="content">
+				<h3>My Hero Acadamia</h3>
+				<p>Integer non erat ligula. Sed facilisis id ex ut congue. Fusce iaculis sollicitudin sem, quis tincidunt
+					tellus blandit sit amet.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/office.jpeg" alt="The Office">
+			<div class="content">
+				<h3>The Office</h3>
+				<p>Nullam ornare ligula eu congue rhoncus. Duis in tempor urna. Donec orci lectus, rhoncus vitae nisi ac,
+					placerat bibendum ipsum.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/queensgambit.jpeg" alt="Queens Gambit">
+			<div class="content">
+				<h3>Queens Gambit</h3>
+				<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam euismod nisi non felis iaculis, sit
+					amet facilisis massa porta.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/silentvoice.jpeg" alt="A Silent Voice">
+			<div class="content">
+				<h3>A Silent Voice</h3>
+				<p>Integer quis lacus non mi lacinia consequat. Vivamus ornare non odio ut lacinia.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/wandavision.jpeg" alt="Wanda Vision">
+			<div class="content">
+				<h3>Wanda Vision</h3>
+				<p>Proin consectetur, massa quis finibus semper, leo leo mollis massa, non pretium lacus diam sed arcu. Nam
+					elit purus, laoreet vitae sodales ut, ultricies non lectus.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/modernfamily.jpeg" alt="Modern Family">
+			<div class="content">
+				<h3>Modern Family</h3>
+				<p>Vivamus laoreet rhoncus nulla, sit amet pulvinar erat malesuada nec. Phasellus ac euismod augue, id
+					consectetur libero. </p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+	</body>
+
+</html>
